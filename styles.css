@@ -14,8 +14,8 @@ body{
 
 .container{
     display:flex;
-    width: 47vw;
-    height: 47vw;
+    width: 45vw;
+    height: 45vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
