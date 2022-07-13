@@ -15,7 +15,7 @@ h1 {
     color: whitesmoke;
     text-align: center;
     font-weight: 1000;
-    margin:0;
+    margin:3vh;
     padding:0;
     padding-top:2vh;
 }
@@ -34,7 +34,7 @@ h1 {
     justify-content: center;
     align-items: center;
     cursor:pointer;
-
+    margin: 10vh;
 }
 
 .row {
@@ -53,9 +53,10 @@ h1 {
 
 .createNewCanvas {
     margin:30px;
-    width: 7vw;
+    width: 100px;
     height: auto;
     font-family:inherit;
+    font-size: 24px 5vw;
     border: 2px solid white;
     background-color: black;
     color:whitesmoke;
