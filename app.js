@@ -32,7 +32,7 @@ function createCanvas(num){
     }
     const pixs = document.querySelectorAll('.pix');
     pixs.forEach(pix => pix.addEventListener('click', () =>{
-        pix.style.backgroundColor = "red"
+        pix.style.backgroundColor = "white"
     }));
 }
 
