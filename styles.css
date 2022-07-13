@@ -1,0 +1,41 @@
+
+body{
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+.pix {
+    height: 20px;
+    width: 20px;
+    border: 1px solid white;
+}
+
+.container{
+    display:flex;
+    width: 45vw;
+    height: 45vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display:flex;
+    justify-content: center;
+    flex-shrink: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.pix {
+    width: 100%;
+    height: 100%;
+}
+
+
+.createNewCanvas {
+    margin:30px;
+}
+
