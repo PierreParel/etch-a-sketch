@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +9,23 @@
     <link rel="stylesheet" href="./styles.css">
     <title>Document</title>
 </head>
-<body>
-    <button class="createNewCanvas">Create New Canvas</button>
-    <div class="container">
+
+<bod>
+    <h1>Pixel Art Canvas</h1>
+    <div class="controls">
+        <button class="createNewCanvas">Create New Canvas</button>
+        <div class="colorPicker">
+            <button class="color" id="red"></button>
+            <button class="color" id="blue"></button>
+            <button class="color" id="yellow"></button>
+            <button class="color" id="green"></button>
+            <button class="color" id="white"></button>
+            <button class="color" id="erase"></button>
+        </div>
+
+    </div>
+    <div class="container" draggable="false">
     </div>
 </body>
+
 </html>

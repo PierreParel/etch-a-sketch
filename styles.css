@@ -5,20 +5,36 @@ body{
     flex-direction: column;
     align-items: center;
     background-color: black;
+    font-family:'Courier New', Courier, monospace;
+    cursor: pointer;
+    user-select: none;
+    justify-content: center;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-weight: 1000;
+    margin:0;
+    padding:0;
+    padding-top:2vh;
 }
 .pix {
     height: 20px;
     width: 20px;
-    border: 1px solid white;
+    border: 1px solid rgb(217, 217, 217);
+    background-color: white;
 }
 
 .container{
     display:flex;
-    width: 45vw;
-    height: 45vw;
+    width: 30vw;
+    height: 30vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor:pointer;
+
 }
 
 .row {
@@ -37,5 +53,53 @@ body{
 
 .createNewCanvas {
     margin:30px;
+    width: 7vw;
+    height: auto;
+    font-family:inherit;
+    border: 2px solid white;
+    background-color: black;
+    color:whitesmoke;
 }
 
+.controls{
+    height:5vw;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+
+.color {
+    width: 2vw;
+    height: 2vw;
+    border: 1px dashed rgb(91, 91, 91);
+
+}
+
+#red {
+    background-color: #FF4D4D;
+}
+
+#blue {
+    background-color:#1638FF;
+}
+
+#yellow {
+    background-color: #FFD837;
+}
+
+#green {
+    background-color:#009B21;
+}
+
+#white {
+    background-color:white;
+}
+
+#erase{
+    background-color: black;
+}
+
+.colorPicker{
+    display:flex;
+    margin:30px;
+}
